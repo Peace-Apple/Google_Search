@@ -17,7 +17,7 @@ header{
 }
 
 header ul.right{
-    padding-right: 60px;
+    padding-right: 40px;
 }
 
 header ul li{
@@ -41,14 +41,23 @@ div.main-content{
     margin-top: 160px;
 }
 
+.foot-main{
+    border: 0.05px solid silver;
+    height: 90px;
+    background-color: lightgray;
+}
+
 .foot-one{
     margin-left: 0px;
     padding-left: 40px;
     color: gray;
+    border: 0.05px solid silver;
+    height: 45px;
 }
-/* .foot-two{
-    border: 1px solid
-} */
+.foot-two{
+    border: 0.05px solid silver;
+    height: 44px;
+}
 ul.left{
     float: left;
 }
@@ -56,7 +65,7 @@ ul.right{
     float: right;
 }
 footer{
-    margin-top: 150px;
+    margin-top: 140px;
     margin-bottom: 0px;
 }
 footer ul.left li{
