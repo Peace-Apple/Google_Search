@@ -1,6 +1,10 @@
 body{
     background-color: white;
 }
+.content{
+    display: flex;
+    flex-direction: column;
+}
 
 title ul li{
     display: inline;
@@ -42,21 +46,21 @@ div.main-content{
 }
 
 .foot-main{
-    border: 0.05px solid silver;
+    border: 0.02px solid silver;
     height: 90px;
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 
 .foot-one{
     margin-left: 0px;
     padding-left: 40px;
     color: gray;
-    border: 0.05px solid silver;
+    border: 0.02px solid silver;
     height: 45px;
 }
 .foot-two{
-    border: 0.05px solid silver;
-    height: 44px;
+    border: 0.02px solid silver;
+    /* height: 44px; */
 }
 ul.left{
     float: left;
@@ -65,7 +69,7 @@ ul.right{
     float: right;
 }
 footer{
-    margin-top: 140px;
+    margin-top: 110px;
     margin-bottom: 0px;
 }
 footer ul.left li{
