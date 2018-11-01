@@ -2,6 +2,10 @@ body{
     background-color: white;
 }
 
+title ul li{
+    display: inline;
+}
+
 header{
     position: fixed;
 	left: 0px;
@@ -42,6 +46,9 @@ div.main-content{
     padding-left: 40px;
     color: gray;
 }
+/* .foot-two{
+    border: 1px solid
+} */
 ul.left{
     float: left;
 }
