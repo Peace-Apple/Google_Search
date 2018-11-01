@@ -12,8 +12,7 @@ header{
 	height: 50px;
 }
 
-header ul{
-    float: right;
+header ul.right{
     padding-right: 60px;
 }
 
@@ -25,6 +24,7 @@ header ul li{
 header ul li a{
     text-decoration: none;
     color: black;
+    padding: 5px;
 }
 
 header ul li a img{
@@ -84,6 +84,7 @@ footer ul.right li a{
 .mid-content form input[type=text]{
     width: 40%;
     padding: 13px 15px;
+    
 }
 .mid-content form input[type=button]{
     color: grey;
